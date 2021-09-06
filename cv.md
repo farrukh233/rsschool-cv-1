@@ -6,7 +6,7 @@
   * Telegram: @farrukh_rma
 
 ## About myself:
-   I want to learn Frontend, it's not easy, but im try. Love help other people in free time
+   I want to learn Frontend, it's not easy, but im try. Love help other people in free time.
 
 ## Code example:
 ``` 
@@ -21,7 +21,7 @@ function opposite(number) {
 ## Skills:
   * HTML
   * CSS (Sass)
-  * JavaScript (Fundamentals,Functional Programming, ES6+,DOM)
+  * JavaScript (Fundamentals,Functional Programming, ES6+, DOM)
   * Basic React JS (UseState, UseEffect, React Router)
   * Version control: Git
   * Editors: VSCode
