@@ -221,3 +221,14 @@ p {
   position: absolute;
   bottom: 25px;
 }
+
+.text {
+  color: #fff;
+}
+
+@media (max-width: 1000px) {
+  .main {
+    margin: 10px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
