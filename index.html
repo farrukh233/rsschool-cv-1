@@ -12,6 +12,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="libs/styles/github-dark-dimmed.min.css" />
     <title>Document</title>
   </head>
   <body>
@@ -154,7 +155,8 @@
         </div>
         <div class="code__example">
           <h2 class="title2">Code Example</h2>
-          <p>
+          <pre>
+            <code class="Javascript">
             function getMiddle(s) {<br />
             &ensp;let length = s.length;<br />
             &ensp;let middle = Math.floor(length/2);<br />
@@ -163,7 +165,8 @@
             } <br />else <br />{<br />
             &ensp;return s[middle] <br />}<br />
             }
-          </p>
+          </code>
+          </pre>
         </div>
         <footer class="footer">
           <div>
@@ -186,5 +189,10 @@
         </footer>
       </div>
     </div>
+    <script src="libs/highlight.js"></script>
+    <script src="libs/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
   </body>
 </html>
